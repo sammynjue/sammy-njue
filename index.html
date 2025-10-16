@@ -2,12 +2,87 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My First Website</title>
-  <meta name="description" content="This is my personal website where I share my projects and portfolio.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sammy Njue Nthiiri's personal website showcasing projects and portfolio.">
+  <title>Sammy Njue Nthiiri</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    main {
+      padding: 2rem 1rem;
+    }
+    .projects {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .project {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      width: 200px;
+    }
+    .project h3 {
+      margin-top: 0;
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>Welcome to my first website.</p>
+  <header>
+    <h1>Sammy Njue Nthiiri</h1>
+    <p>Welcome to my personal website</p>
+  </header>
+  <main>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Short description of project 1.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Short description of project 2.</p>
+      </div>
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>Short description of project 3.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Sammy Njue Nthiiri | <a href="#">Contact Me</a>
+  </footer>
 </body>
 </html>
